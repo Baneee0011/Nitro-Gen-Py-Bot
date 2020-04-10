@@ -27,10 +27,5 @@ class MyClient(discord.Client):
 
         if message.content == '*nitro':
             await message.channel.send(link + gen())
-        if message.content == '*invite':
-                await message.channel.send("**Invite Me To Your Discord Server! https://discordapp.com/api/oauth2/authorize?client_id=690487591580991549&permissions=8&scope=bot")
-
-
-
 client = MyClient()
 client.run('BOTTOKENHERE')
