@@ -28,4 +28,4 @@ class MyClient(discord.Client):
         if message.content == '*nitro':
             await message.channel.send(link + gen())
 client = MyClient()
-client.run('BOTTOKENHERE')
+client.run('BOT_TOKEN_HERE')
